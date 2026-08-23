@@ -1,0 +1,66 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the associated paper."
+title: "GEVI Linescan Analyzer"
+abstract: >-
+  A single-file browser application for analysing two-photon line-scan recordings of
+  genetically encoded voltage indicator signals. Extracts and photobleach-corrects
+  fluorescence traces, detects action potentials and subthreshold voltage fluctuations,
+  and computes synchrony, regularity, noise and entropy metrics, with a seeded
+  synthetic-data validation harness.
+type: software
+version: "1.8.1"
+date-released: "2026-08-22"
+license: GPL-3.0-or-later
+repository-code: "https://github.com/Santana-Lab-UC-Davis/GEVI-linescan-image-analyzer"
+url: "https://github.com/Santana-Lab-UC-Davis/GEVI-linescan-image-analyzer"
+# TODO before release: replace with the Zenodo concept DOI minted when the first
+# GitHub release is archived, then re-tag.
+doi: "«ZENODO DOI»"
+authors:
+  - family-names: "Santana"
+    given-names: "L. Fernando"
+    affiliation: "Department of Physiology and Membrane Biology, University of California, Davis, School of Medicine"
+    orcid: "https://orcid.org/0000-0002-4297-8029"
+  - family-names: "Muñoz"
+    given-names: "Manuel"
+    affiliation: "Department of Physiology and Membrane Biology, University of California, Davis, School of Medicine"
+    orcid: "https://orcid.org/0000-0001-7024-9600"
+references:
+  - type: software
+    title: "SparkMaster 2"
+    authors:
+      - family-names: "Tomek"
+        given-names: "Jakub"
+    doi: "10.1161/CIRCRESAHA.123.322847"
+    repository-code: "https://github.com/jtmff/SparkMaster2"
+    license: GPL-3.0-or-later
+    notes: >-
+      The detection engine of this software is a derived work of SparkMaster 2.
+keywords:
+  - sinoatrial node
+  - pacemaker
+  - genetically encoded voltage indicator
+  - ASAP5
+  - line scan
+  - two-photon imaging
+  - action potential detection
+  - Kuramoto order parameter
+  - stochastic resonance
+  - cardiac electrophysiology
+preferred-citation:
+  type: article
+  title: "«PAPER TITLE»"
+  journal: "«JOURNAL»"
+  year: 2026
+  doi: "«PAPER DOI»"
+  # Author order here should match the PAPER's byline, which may differ from the
+  # software author order above.
+  authors:
+    - family-names: "Muñoz"
+      given-names: "Manuel"
+      affiliation: "Department of Physiology and Membrane Biology, University of California, Davis, School of Medicine"
+      orcid: "https://orcid.org/0000-0001-7024-9600"
+    - family-names: "Santana"
+      given-names: "L. Fernando"
+      affiliation: "Department of Physiology and Membrane Biology, University of California, Davis, School of Medicine"
+      orcid: "https://orcid.org/0000-0002-4297-8029"
